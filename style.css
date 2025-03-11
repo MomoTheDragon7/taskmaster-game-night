@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0; /*added margin reset*/
-    padding: 0; /*added padding reset*/
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -23,6 +23,7 @@ h1 {
 p {
     text-align: center;
     color: #e50000;
+    margin: 5px 0; /* Add some vertical margin to <p> tags */
 }
 
 .container {
@@ -64,18 +65,4 @@ p {
 #content {
     margin-top: 20px;
     text-align: center; /* Center content within #content */
-}
-
-/* List Styling */
-#content ol.task-list {
-    list-style-position: inside;
-    padding-left: 0;
-    display: inline-block; /* allows the list to be centered */
-    text-align: left; /* re-align the list items to the left */
-}
-
-#content ol.task-list li {
-    line-height: 1.6;
-    padding: 8px 12px;
-    margin-bottom: 5px;
 }

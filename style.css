@@ -22,6 +22,7 @@ h1 {
 
 p {
     text-align: center;
+    justify-content: left;
     color: #e50000;
     margin: 5px 0; /* Add some vertical margin to <p> tags */
 }

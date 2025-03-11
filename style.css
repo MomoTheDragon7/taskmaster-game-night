@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: #000000;
+    color: #ec320b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,10 +17,12 @@ body {
 
 .p {
     text-align: center;
+    color: #ec320b;
 }
 
 .container {
     background-color: #000000;
+    color: #ec320b;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -28,6 +31,7 @@ body {
 
 #password-form {
     margin-top: 20px;
+    color: #ec320b;
 }
 
 #password-form input, #password-form button {

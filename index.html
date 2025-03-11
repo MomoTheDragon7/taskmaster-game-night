@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskmaster Game Night</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Taskmaster Game Night</h1>
+        <p>Welcome, contestants!</p>
+        <div id="content" style="display: none;">
+            <h2>Tonight's Tasks</h2>
+            <p>Task 1: [Your Task Here]</p>
+            <p>Task 2: [Your Task Here]</p>
+            <p>Task 3: [Your Task Here]</p>
+            </div>
+        <div id="password-form">
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password">
+            <button onclick="checkPassword()">Enter</button>
+            <p id="error-message" style="color: red;"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

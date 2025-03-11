@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.h1 {
+    color: #333;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p {
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+#password-form {
+    margin-top: 20px;
+}
+
+#password-form input, #password-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#content {
+  margin-top: 20px;
+}

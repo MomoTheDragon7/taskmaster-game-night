@@ -65,3 +65,16 @@ p {
 #content {
     margin-top: 20px;
 }
+
+/* List Styling */
+#content ul.task-list, #content ol.task-list {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+#content ul.task-list li, #content ol.task-list li {
+    text-align: left;
+    line-height: 1.6;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+}
